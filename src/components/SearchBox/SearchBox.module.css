@@ -1,0 +1,26 @@
+.container {
+    margin: 0 auto;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .searchLabel {
+    margin: 0 auto;
+  }
+  .input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border-color: rgb(74, 28, 158);
+    outline: none;
+  }
